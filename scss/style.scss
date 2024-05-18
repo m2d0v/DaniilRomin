@@ -1,0 +1,120 @@
+@import url("reset.css");
+
+/* -----COMMON----- */
+body {
+	font-family: "Poppins", Arial, sans-serif;
+	font-weight: 300;
+	color: #000;
+	background-color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	overflow: clip;
+	min-height: 100%;
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1310px;
+	padding: 0 0.9375rem;
+}
+
+.page {
+	flex: 1 1 auto;
+	padding-top: 100px;
+}
+h2{
+	font-size: 42px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	text-align: center;
+}
+p{
+	margin-bottom: 10px;
+	line-height: 1.3;
+	color: #101010;
+}
+/* -----MAIN----- */
+.header {
+	position: fixed;
+	width: 100%;
+	background-color: #101010;
+	color: #fff;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__logo {
+		overflow: hidden;
+		img{
+			height: 80px;
+			width: 80px;	
+		}
+	}
+	&__menu {
+		flex: 1 1 auto;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	&__list {
+		display: flex;
+		gap: 15px;
+	}
+	&__link {
+		font-size: 24px;
+		a{
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+	}
+}
+
+
+.reasons {
+		min-height: 100dvh;
+		&__container {
+		}
+		&__title {
+		}
+		&__text {
+		}
+}
+.types {
+		min-height: 100dvh;
+		&__container {
+		}
+		&__title {
+		}
+		&__text {
+		}
+}
+.channels {
+		min-height: 100dvh;
+		&__container {
+		}
+		&__title {
+		}
+		&__text {
+		}
+}
+
+.footer {
+	width: 100%;
+	background-color: #101010;
+	color: #fff;
+	font-size: 32px;
+	padding: 10px 0;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__logo-text {
+	}
+	&__university {
+	}
+}
