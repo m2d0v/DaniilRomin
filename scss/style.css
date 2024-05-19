@@ -3,7 +3,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  color: #fff;
+  color: #000;
   background-color: #fff;
 }
 
@@ -44,6 +44,10 @@ h2 {
 p {
   line-height: 1.5;
   color: #101010;
+}
+
+.p__wrapper {
+  min-height: 100%;
 }
 
 /* -----MAIN----- */
